@@ -1,0 +1,147 @@
+.header{
+   z-index: 3;
+}
+a {
+  color: #606060;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  z-index: 2;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  text-color: #808080;
+}
+.leftheader {
+  z-index: 2;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 8px;
+  text-decoration: none;
+  position:relative;
+  overflow:auto;
+}
+.rightheader {
+  z-index: 3;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 8px;
+  text-decoration: none;
+  position: relative;
+  overflow:auto;
+}
+a:hover {
+  text-decoration: underline;
+}
+#pfp {
+  position: relative;
+  top: -9px;
+}
+.container {
+  padding-top: 33vw;
+  position: relative;
+}
+.vertical-center{
+  text-align: center; 
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#mag-image{
+  position: absolute;
+  right: 32.3vw;
+  top: 54%
+}
+#voice-image{
+  position: absolute;
+  left: 32.1vw;
+  top: 53%
+}
+#onhovervoice{
+  position: absolute;
+  left: 29.7vw;
+  top: 60%;
+  padding: 3px;
+  min-width: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: black;
+  color:white;
+  visibility: hidden;
+}
+#voice-image:hover ~ #onhovervoice{
+  visibility: visible;
+}
+#search-bar{
+  margin: 10px;
+  min-width: 33vw;
+  min-height: 40px;
+  border-radius: 50px;
+  border-color: #E8E8E8; /*Grey*/
+  border-width: 1px 1px 1px 1px;
+  outline: none; 
+  text-indent: 50px;
+}
+#search-bar:hover{
+  box-shadow: 0px 0px 10px #E8E8E8; /*Grey*/
+}
+#buttons{
+ text-align: center;
+ margin: 10px;
+ font-family: arial,sans-serif;
+}
+#search-button, #lucky-button{
+  padding: 14px;
+  backround-color: #f2f2f2;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #808080;
+}
+#search-button:hover, #lucky-button:hover{
+  color:black;
+  border: solid;
+  border-width: 1px;
+  border-color: #A9A9A9;
+}
+.footerbar{
+}
+.leftfooter {
+  z-index: 2;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 20px 8px;
+  text-decoration: none;
+  position: relative;
+  overflow:auto;
+}
+.rightfooter {
+  z-index: 3;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 20px 8px;
+  text-decoration: none;
+  position: relative;
+  overflow:auto;
+}
+.midfooter{
+    background-color: #f2f2f2;
+    padding-bottom: 40px;
+}
+footer{
+    width: 100%;
+   position: fixed;
+   bottom: 0px; 
+   left: 0px; 
+}
